@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardList Component - Snapshot Tests should match snapshot for empty cards array: empty-state 1`] = `
+<div
+  data-testid="empty-state"
+>
+  📭 No cards to display
+</div>
+`;
+
+exports[`CardList Component - Snapshot Tests should match snapshot for error state: error-state 1`] = `
+<div
+  data-testid="error-state"
+  style="color: red;"
+>
+  ❌ Error: 
+  Failed to load cards
+</div>
+`;
+
+exports[`CardList Component - Snapshot Tests should match snapshot for loading state: loading-state 1`] = `
+<div
+  data-testid="loading-state"
+>
+  ⏳ Loading cards...
+</div>
+`;
+
+exports[`CardList Component - Snapshot Tests should match snapshot when cards is null: null-cards 1`] = `
+<div
+  data-testid="empty-state"
+>
+  📭 No cards to display
+</div>
+`;
+
+exports[`CardList Component - Snapshot Tests should match snapshot with different card statuses: mixed-statuses 1`] = `
+<div
+  class="card-list"
+  data-testid="card-list"
+>
+  <div
+    class="card"
+    data-testid="card-Active Task"
+  >
+    <h3>
+      Active Task
+    </h3>
+    <p>
+      Currently working
+    </p>
+    <span
+      class="status active"
+    >
+      active
+    </span>
+  </div>
+  <div
+    class="card"
+    data-testid="card-Pending Task"
+  >
+    <h3>
+      Pending Task
+    </h3>
+    <p>
+      Waiting approval
+    </p>
+    <span
+      class="status pending"
+    >
+      pending
+    </span>
+  </div>
+  <div
+    class="card"
+    data-testid="card-Completed Task"
+  >
+    <h3>
+      Completed Task
+    </h3>
+    <p>
+      Done
+    </p>
+    <span
+      class="status completed"
+    >
+      completed
+    </span>
+  </div>
+</div>
+`;
+
+exports[`CardList Component - Snapshot Tests should match snapshot with multiple cards: multiple-cards 1`] = `
+<div
+  class="card-list"
+  data-testid="card-list"
+>
+  <div
+    class="card"
+    data-testid="card-Card 1"
+  >
+    <h3>
+      Card 1
+    </h3>
+    <p>
+      First card
+    </p>
+    <span
+      class="status active"
+    >
+      active
+    </span>
+  </div>
+  <div
+    class="card"
+    data-testid="card-Card 2"
+  >
+    <h3>
+      Card 2
+    </h3>
+    <p>
+      Second card
+    </p>
+    <span
+      class="status inactive"
+    >
+      inactive
+    </span>
+  </div>
+  <div
+    class="card"
+    data-testid="card-Card 3"
+  >
+    <h3>
+      Card 3
+    </h3>
+    <p>
+      Third card
+    </p>
+    <span
+      class="status active"
+    >
+      active
+    </span>
+  </div>
+</div>
+`;
+
+exports[`CardList Component - Snapshot Tests should match snapshot with single card: single-card 1`] = `
+<div
+  class="card-list"
+  data-testid="card-list"
+>
+  <div
+    class="card"
+    data-testid="card-Card 1"
+  >
+    <h3>
+      Card 1
+    </h3>
+    <p>
+      First card
+    </p>
+    <span
+      class="status active"
+    >
+      active
+    </span>
+  </div>
+</div>
+`;

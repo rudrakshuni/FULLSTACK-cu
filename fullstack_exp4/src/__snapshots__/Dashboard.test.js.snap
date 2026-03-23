@@ -1,0 +1,787 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Component - Snapshot Tests Combined State Snapshots should match snapshot for error state with data (error takes precedence) 1`] = `
+<div>
+  <div
+    class="dashboard-container"
+    data-testid="dashboard"
+  >
+    <div
+      class="error-container"
+      data-testid="error-state"
+    >
+      <h2>
+        Error
+      </h2>
+      <p>
+        Error occurred
+      </p>
+      <button>
+        Retry
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests Combined State Snapshots should match snapshot for loading state with default data 1`] = `
+<div>
+  <div
+    class="dashboard-container"
+    data-testid="dashboard"
+  >
+    <div
+      class="loading-spinner"
+      data-testid="loading-state"
+    >
+      Loading data...
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests Consistency Snapshots should match snapshot for state consistency check 1`] = `
+<div>
+  <div
+    class="dashboard-container"
+    data-testid="dashboard"
+  >
+    <h1
+      class="dashboard-title"
+    >
+      Dashboard
+    </h1>
+    <div
+      class="cards-grid"
+      data-testid="cards-grid"
+    >
+      <div
+        class="card card-active"
+        data-testid="card-a"
+      >
+        <h3
+          class="card-title"
+        >
+          Product A
+        </h3>
+        <p
+          class="card-description"
+        >
+          High quality
+        </p>
+        <span
+          class="status-badge status-active"
+        >
+          active
+        </span>
+      </div>
+      <div
+        class="card card-inactive"
+        data-testid="card-b"
+      >
+        <h3
+          class="card-title"
+        >
+          Product B
+        </h3>
+        <p
+          class="card-description"
+        >
+          On sale
+        </p>
+        <span
+          class="status-badge status-inactive"
+        >
+          inactive
+        </span>
+      </div>
+      <div
+        class="card card-active"
+        data-testid="card-c"
+      >
+        <h3
+          class="card-title"
+        >
+          Product C
+        </h3>
+        <p
+          class="card-description"
+        >
+          New arrival
+        </p>
+        <span
+          class="status-badge status-active"
+        >
+          active
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests Consistency Snapshots should render consistently with same data 1`] = `
+<div>
+  <div
+    class="dashboard-container"
+    data-testid="dashboard"
+  >
+    <h1
+      class="dashboard-title"
+    >
+      Dashboard
+    </h1>
+    <div
+      class="cards-grid"
+      data-testid="cards-grid"
+    >
+      <div
+        class="card card-active"
+        data-testid="card-a"
+      >
+        <h3
+          class="card-title"
+        >
+          Product A
+        </h3>
+        <p
+          class="card-description"
+        >
+          High quality
+        </p>
+        <span
+          class="status-badge status-active"
+        >
+          active
+        </span>
+      </div>
+      <div
+        class="card card-inactive"
+        data-testid="card-b"
+      >
+        <h3
+          class="card-title"
+        >
+          Product B
+        </h3>
+        <p
+          class="card-description"
+        >
+          On sale
+        </p>
+        <span
+          class="status-badge status-inactive"
+        >
+          inactive
+        </span>
+      </div>
+      <div
+        class="card card-active"
+        data-testid="card-c"
+      >
+        <h3
+          class="card-title"
+        >
+          Product C
+        </h3>
+        <p
+          class="card-description"
+        >
+          New arrival
+        </p>
+        <span
+          class="status-badge status-active"
+        >
+          active
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests Data Loaded State Snapshot should match snapshot for cards with mix of statuses 1`] = `
+<div>
+  <div
+    class="dashboard-container"
+    data-testid="dashboard"
+  >
+    <h1
+      class="dashboard-title"
+    >
+      Dashboard
+    </h1>
+    <div
+      class="cards-grid"
+      data-testid="cards-grid"
+    >
+      <div
+        class="card card-active"
+        data-testid="card-1"
+      >
+        <h3
+          class="card-title"
+        >
+          Active
+        </h3>
+        <p
+          class="card-description"
+        >
+          Desc 1
+        </p>
+        <span
+          class="status-badge status-active"
+        >
+          active
+        </span>
+      </div>
+      <div
+        class="card card-inactive"
+        data-testid="card-2"
+      >
+        <h3
+          class="card-title"
+        >
+          Inactive
+        </h3>
+        <p
+          class="card-description"
+        >
+          Desc 2
+        </p>
+        <span
+          class="status-badge status-inactive"
+        >
+          inactive
+        </span>
+      </div>
+      <div
+        class="card card-active"
+        data-testid="card-3"
+      >
+        <h3
+          class="card-title"
+        >
+          Active
+        </h3>
+        <p
+          class="card-description"
+        >
+          Desc 3
+        </p>
+        <span
+          class="status-badge status-active"
+        >
+          active
+        </span>
+      </div>
+      <div
+        class="card card-inactive"
+        data-testid="card-4"
+      >
+        <h3
+          class="card-title"
+        >
+          Inactive
+        </h3>
+        <p
+          class="card-description"
+        >
+          Desc 4
+        </p>
+        <span
+          class="status-badge status-inactive"
+        >
+          inactive
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests Data Loaded State Snapshot should match snapshot for data with active status 1`] = `
+<div>
+  <div
+    class="dashboard-container"
+    data-testid="dashboard"
+  >
+    <h1
+      class="dashboard-title"
+    >
+      Dashboard
+    </h1>
+    <div
+      class="cards-grid"
+      data-testid="cards-grid"
+    >
+      <div
+        class="card card-active"
+        data-testid="card-1"
+      >
+        <h3
+          class="card-title"
+        >
+          Active Item
+        </h3>
+        <p
+          class="card-description"
+        >
+          Active Description
+        </p>
+        <span
+          class="status-badge status-active"
+        >
+          active
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests Data Loaded State Snapshot should match snapshot for data with inactive status 1`] = `
+<div>
+  <div
+    class="dashboard-container"
+    data-testid="dashboard"
+  >
+    <h1
+      class="dashboard-title"
+    >
+      Dashboard
+    </h1>
+    <div
+      class="cards-grid"
+      data-testid="cards-grid"
+    >
+      <div
+        class="card card-inactive"
+        data-testid="card-1"
+      >
+        <h3
+          class="card-title"
+        >
+          Inactive Item
+        </h3>
+        <p
+          class="card-description"
+        >
+          Inactive Description
+        </p>
+        <span
+          class="status-badge status-inactive"
+        >
+          inactive
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests Data Loaded State Snapshot should match snapshot for large data set 1`] = `
+<div>
+  <div
+    class="dashboard-container"
+    data-testid="dashboard"
+  >
+    <h1
+      class="dashboard-title"
+    >
+      Dashboard
+    </h1>
+    <div
+      class="cards-grid"
+      data-testid="cards-grid"
+    >
+      <div
+        class="card card-active"
+        data-testid="card-1"
+      >
+        <h3
+          class="card-title"
+        >
+          Item 1
+        </h3>
+        <p
+          class="card-description"
+        >
+          Description 1
+        </p>
+        <span
+          class="status-badge status-active"
+        >
+          active
+        </span>
+      </div>
+      <div
+        class="card card-inactive"
+        data-testid="card-2"
+      >
+        <h3
+          class="card-title"
+        >
+          Item 2
+        </h3>
+        <p
+          class="card-description"
+        >
+          Description 2
+        </p>
+        <span
+          class="status-badge status-inactive"
+        >
+          inactive
+        </span>
+      </div>
+      <div
+        class="card card-active"
+        data-testid="card-3"
+      >
+        <h3
+          class="card-title"
+        >
+          Item 3
+        </h3>
+        <p
+          class="card-description"
+        >
+          Description 3
+        </p>
+        <span
+          class="status-badge status-active"
+        >
+          active
+        </span>
+      </div>
+      <div
+        class="card card-inactive"
+        data-testid="card-4"
+      >
+        <h3
+          class="card-title"
+        >
+          Item 4
+        </h3>
+        <p
+          class="card-description"
+        >
+          Description 4
+        </p>
+        <span
+          class="status-badge status-inactive"
+        >
+          inactive
+        </span>
+      </div>
+      <div
+        class="card card-active"
+        data-testid="card-5"
+      >
+        <h3
+          class="card-title"
+        >
+          Item 5
+        </h3>
+        <p
+          class="card-description"
+        >
+          Description 5
+        </p>
+        <span
+          class="status-badge status-active"
+        >
+          active
+        </span>
+      </div>
+      <div
+        class="card card-inactive"
+        data-testid="card-6"
+      >
+        <h3
+          class="card-title"
+        >
+          Item 6
+        </h3>
+        <p
+          class="card-description"
+        >
+          Description 6
+        </p>
+        <span
+          class="status-badge status-inactive"
+        >
+          inactive
+        </span>
+      </div>
+      <div
+        class="card card-active"
+        data-testid="card-7"
+      >
+        <h3
+          class="card-title"
+        >
+          Item 7
+        </h3>
+        <p
+          class="card-description"
+        >
+          Description 7
+        </p>
+        <span
+          class="status-badge status-active"
+        >
+          active
+        </span>
+      </div>
+      <div
+        class="card card-inactive"
+        data-testid="card-8"
+      >
+        <h3
+          class="card-title"
+        >
+          Item 8
+        </h3>
+        <p
+          class="card-description"
+        >
+          Description 8
+        </p>
+        <span
+          class="status-badge status-inactive"
+        >
+          inactive
+        </span>
+      </div>
+      <div
+        class="card card-active"
+        data-testid="card-9"
+      >
+        <h3
+          class="card-title"
+        >
+          Item 9
+        </h3>
+        <p
+          class="card-description"
+        >
+          Description 9
+        </p>
+        <span
+          class="status-badge status-active"
+        >
+          active
+        </span>
+      </div>
+      <div
+        class="card card-inactive"
+        data-testid="card-10"
+      >
+        <h3
+          class="card-title"
+        >
+          Item 10
+        </h3>
+        <p
+          class="card-description"
+        >
+          Description 10
+        </p>
+        <span
+          class="status-badge status-inactive"
+        >
+          inactive
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests Data Loaded State Snapshot should match snapshot for multiple cards 1`] = `
+<div>
+  <div
+    class="dashboard-container"
+    data-testid="dashboard"
+  >
+    <h1
+      class="dashboard-title"
+    >
+      Dashboard
+    </h1>
+    <div
+      class="cards-grid"
+      data-testid="cards-grid"
+    >
+      <div
+        class="card card-active"
+        data-testid="card-1"
+      >
+        <h3
+          class="card-title"
+        >
+          Item 1
+        </h3>
+        <p
+          class="card-description"
+        >
+          Description 1
+        </p>
+        <span
+          class="status-badge status-active"
+        >
+          active
+        </span>
+      </div>
+      <div
+        class="card card-inactive"
+        data-testid="card-2"
+      >
+        <h3
+          class="card-title"
+        >
+          Item 2
+        </h3>
+        <p
+          class="card-description"
+        >
+          Description 2
+        </p>
+        <span
+          class="status-badge status-inactive"
+        >
+          inactive
+        </span>
+      </div>
+      <div
+        class="card card-active"
+        data-testid="card-3"
+      >
+        <h3
+          class="card-title"
+        >
+          Item 3
+        </h3>
+        <p
+          class="card-description"
+        >
+          Description 3
+        </p>
+        <span
+          class="status-badge status-active"
+        >
+          active
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests Empty State Snapshot should match snapshot for empty state 1`] = `
+<div>
+  <div
+    class="dashboard-container"
+    data-testid="dashboard"
+  >
+    <div
+      class="empty-state"
+      data-testid="empty-state"
+    >
+      <h2>
+        No Data
+      </h2>
+      <p>
+        There are no items to display at the moment.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests Empty State Snapshot should match snapshot for null data 1`] = `
+<div>
+  <div
+    class="dashboard-container"
+    data-testid="dashboard"
+  >
+    <div
+      class="empty-state"
+      data-testid="empty-state"
+    >
+      <h2>
+        No Data
+      </h2>
+      <p>
+        There are no items to display at the moment.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests Error State Snapshot should match snapshot for different error message 1`] = `
+<div>
+  <div
+    class="dashboard-container"
+    data-testid="dashboard"
+  >
+    <div
+      class="error-container"
+      data-testid="error-state"
+    >
+      <h2>
+        Error
+      </h2>
+      <p>
+        Server Error 500
+      </p>
+      <button>
+        Retry
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests Error State Snapshot should match snapshot for error state 1`] = `
+<div>
+  <div
+    class="dashboard-container"
+    data-testid="dashboard"
+  >
+    <div
+      class="error-container"
+      data-testid="error-state"
+    >
+      <h2>
+        Error
+      </h2>
+      <p>
+        Failed to fetch data
+      </p>
+      <button>
+        Retry
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component - Snapshot Tests Loading State Snapshot should match snapshot for loading state 1`] = `
+<div>
+  <div
+    class="dashboard-container"
+    data-testid="dashboard"
+  >
+    <div
+      class="loading-spinner"
+      data-testid="loading-state"
+    >
+      Loading data...
+    </div>
+  </div>
+</div>
+`;
