@@ -1,0 +1,45 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: notesdb
+      POSTGRES_USER: notesuser
+      POSTGRES_PASSWORD: notespass
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    networks:
+      - fullstack
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - '8080:8080'
+    depends_on:
+      - db
+    environment:
+      DB_URL: jdbc:postgresql://db:5432/notesdb
+      DB_USER: notesuser
+      DB_PASSWORD: notespass
+    networks:
+      - fullstack
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - '3000:80'
+    depends_on:
+      - backend
+    networks:
+      - fullstack
+
+volumes:
+  db-data:
+
+networks:
+  fullstack:
+    driver: bridge
