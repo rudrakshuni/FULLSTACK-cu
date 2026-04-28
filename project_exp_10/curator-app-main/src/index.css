@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+body {
+  background-color: #F5F1EB;
+  /* Lighting: soft gradient, slightly darker edges, lighter center */
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.6) 0%, transparent 100%),
+    /* Visible organic branch patterns - thin, flowing, slightly curved */
+    /* Branch 1 */
+    linear-gradient(165deg, transparent 40%, rgba(62, 47, 36, 0.08) 40.5%, rgba(62, 47, 36, 0.08) 41%, transparent 41.5%),
+    /* Branch 2 */
+    linear-gradient(15deg, transparent 60%, rgba(62, 47, 36, 0.06) 60.5%, rgba(62, 47, 36, 0.06) 61%, transparent 61.5%),
+    /* Branch 3 */
+    linear-gradient(110deg, transparent 20%, rgba(62, 47, 36, 0.07) 20.5%, rgba(62, 47, 36, 0.07) 21%, transparent 21.5%),
+    /* Branch 4 - curved effect with radial */
+    radial-gradient(ellipse at 100% 0%, transparent 70%, rgba(62, 47, 36, 0.05) 70.5%, rgba(62, 47, 36, 0.05) 71%, transparent 71.5%),
+    /* Branch 5 - curved effect with radial */
+    radial-gradient(ellipse at 0% 100%, transparent 80%, rgba(62, 47, 36, 0.04) 80.5%, rgba(62, 47, 36, 0.04) 81%, transparent 81.5%),
+    /* Deep muted wood tones at the edges */
+    radial-gradient(circle at 0% 0%, rgba(62, 47, 36, 0.06) 0%, transparent 70%),
+    radial-gradient(circle at 100% 100%, rgba(62, 47, 36, 0.06) 0%, transparent 70%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: #2D2D2D;
+}
+
+/* Ensure the background doesn't distract */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
